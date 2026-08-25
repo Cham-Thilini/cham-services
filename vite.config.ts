@@ -3,6 +3,14 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  // GitHub Pages repo site: https://cham.github.io/cham
-  base: '/cham/'
+  // Custom domain serves the site from the root path.
+  base: '/',
+  build: {
+    rollupOptions: {
+      input: {
+        portfolio: 'index.html',
+        services: 'services.html',
+      },
+    },
+  },
 })

@@ -217,6 +217,7 @@ function App() {
             {navItems.map((item) => (
               <a href={`#${item}`} key={item}>{text.nav[item as keyof typeof text.nav]}</a>
             ))}
+            <a href="./services.html">Services</a>
             <button type="button" className="language-toggle" onClick={() => setLanguage(language === 'en' ? 'de' : 'en')} aria-label="Switch language">
               <Languages size={15} /> {language.toUpperCase()}
             </button>
@@ -237,6 +238,7 @@ function App() {
                 {text.nav[item as keyof typeof text.nav]}
               </a>
             ))}
+            <a href="./services.html" onClick={() => setOpen(false)}>Services</a>
             <button type="button" className="language-toggle" onClick={() => setLanguage(language === 'en' ? 'de' : 'en')}>
               <Languages size={15} /> {language.toUpperCase()}
             </button>
