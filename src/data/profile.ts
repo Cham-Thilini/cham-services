@@ -5,7 +5,7 @@ export const profile = {
   name: 'Cham Madamperuma',
   role: 'Senior Full-Stack Software Engineer',
   location: 'London, UK',
-  phone: '+447467896526',
+  phone: '+447961657363',
   email: 'eng.cham.net@gmail.com',
   linkedin: 'https://www.linkedin.com/in/chamaramadamperuma/',
   github: 'https://github.com/Cham-Thilini',
