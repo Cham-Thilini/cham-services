@@ -10,6 +10,7 @@ export default defineConfig({
       input: {
         portfolio: 'index.html',
         services: 'services.html',
+        monitoring: 'monitoring.html',
       },
     },
   },
